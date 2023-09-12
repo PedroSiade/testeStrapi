@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_informations_informations_aboutuses",
+  "info": {
+    "displayName": "InformationsAboutUs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Adress": {
+      "type": "string",
+      "required": true
+    },
+    "ZipCode": {
+      "type": "biginteger"
+    },
+    "phoneNumber": {
+      "type": "biginteger"
+    }
+  }
+}

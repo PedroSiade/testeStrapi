@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_standart_menu_standart_menus",
+  "info": {
+    "displayName": "StandartMenu",
+    "icon": "layer"
+  },
+  "options": {},
+  "attributes": {
+    "Tittle": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text",
+      "required": true
+    },
+    "Body": {
+      "type": "text",
+      "required": true
+    },
+    "Media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": false
+    }
+  }
+}

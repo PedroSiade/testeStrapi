@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "common_questions",
+  "info": {
+    "singularName": "common-question",
+    "pluralName": "common-questions",
+    "displayName": "CommonQuestions"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "topic": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Question": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Answer": {
+      "type": "string",
+      "required": true
+    },
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "common_questions"
+    }
+  }
+}
